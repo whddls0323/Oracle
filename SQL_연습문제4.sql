@@ -77,7 +77,7 @@ select name,address from member where address like '부산%';
 select title from book where available='Y';
 
 --실습 8
-select * from book where book_id='10005';
+select * from book where book_id=10005;
 
 --실습 9
 select member_id,name,hp from member where member_id=1002;
