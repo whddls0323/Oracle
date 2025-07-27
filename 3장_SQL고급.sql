@@ -126,7 +126,7 @@ SELECT * FROM sale OFFSET 0 ROWS FETCH NEXT 3 ROWS ONLY; --인덱스0부터 3개
 select * from sale offset 1 rows fetch next 2 rows only; --인덱스1부터 2개
 select * from sale offset 5 rows fetch next 3 rows only; --인덱스5부터 3개
 select * from sale order by price desc offset 3 rows fetch next 5 rows only;
-select * from sale where sale < 50000 order by price desc fetch first 3 rows only;
+select * from sale where price < 50000 order by price desc fetch first 3 rows only;
 select * from sale where price > 50000 order by year desc,month,price desc fetch first 5 rows only;
 
 --3) 중복제거와 별칭
