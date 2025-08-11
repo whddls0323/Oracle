@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CollegeERD" id="CE65215A-F10E-7076-B2CD-DDDDAE164CF2" version="3.5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:07:58 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CE65215A-F10E-7076-B2CD-DDDDAE164CF2</designId>
+</OSDM_Design>
