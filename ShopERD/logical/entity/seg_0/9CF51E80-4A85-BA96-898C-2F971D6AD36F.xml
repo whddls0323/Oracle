@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CF51E80-4A85-BA96-898C-2F971D6AD36F" name="Product">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>837BE307-94C2-B535-1214-1C056D1733C7</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prodNo" id="931282B3-5B11-E441-7EE1-7AD5C76FE2E6">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>323CFFC8-B501-7DA1-52F8-F4D905A08B37</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prodName" id="B9059AE3-C956-DC14-7491-02B75B70D889">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>BF53E4EE-69E4-76AC-2CBB-5EE89EDB87CF</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="9B841A2F-F760-4DD1-2A8B-7D2573E1C23F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>525C59BB-7F1A-0794-2E20-D72A8E0890E3</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="B8BF20AB-3F1B-5B71-774C-24AAAACC0E98">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>FB590D8F-3B4B-8603-B077-8A09F3591F87</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company" id="BBBE6377-BC88-2957-16BD-1C58FF4E26A8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>9F45C15A-8DF9-E5C5-1665-77DCAC326458</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7E41B79-2A8E-99DE-8DE5-967B82E03E79" name="Product PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>7546D1B8-619D-2E22-B372-A8FBE5F9296D</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>931282B3-5B11-E441-7EE1-7AD5C76FE2E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

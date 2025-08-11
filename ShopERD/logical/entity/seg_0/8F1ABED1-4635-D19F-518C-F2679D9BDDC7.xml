@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F1ABED1-4635-D19F-518C-F2679D9BDDC7" name="order">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>07A04E19-30A1-59DC-2A44-CF4FF396AE3C</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="orderNo" id="FA875925-129D-EFE4-B5D7-2A000C712D22">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>A2B37475-8DE4-CA8C-7570-E2D52410C724</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderId" id="27BA42A5-384A-60C5-72E1-DDF4215AE2D0">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>71D3D37A-594C-42FE-F518-C63FD6B94724</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderProduct" id="60420449-448E-F2CF-ED91-8FE3563C7C72">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>62AB777B-BA07-9151-6E5A-17E37519EAB1</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderCount" id="39AF9247-5FF5-2F4D-3FD9-0F9DB0A7D497">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>2FC15E59-B2FF-90E9-3954-8B08481F197E</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderDate" id="1604A909-724F-3220-508B-36C5671D8067">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>70693817-B1DD-4BD9-98B3-D247B0987E5C</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3522812B-347B-DF8B-B1B6-01AA898A2C36" name="order PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>F0AC2533-220C-748D-123E-EEC5A959B346</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA875925-129D-EFE4-B5D7-2A000C712D22</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

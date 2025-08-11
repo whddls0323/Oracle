@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9219E81D-8845-08CB-BE30-E0DDEB1558BB" name="Customer">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>4EA8150E-D2DA-0970-AB5B-FF7BA9F9AD9B</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="custid" id="CA783035-C5BE-1433-6864-C8C8292135F6">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>E19E20CC-986F-2948-E793-6A128F729A39</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="AAFF18E1-58F2-A25D-FF59-057735DD9AFD">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>095E6840-7798-5149-FE18-BA5E3415D2A9</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hp" id="275393E5-3D69-5980-FB06-D74B933FE11A">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>3D70783B-7926-E285-E229-40A2A2427892</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="addr" id="637D84B1-86EF-087D-9516-2E729F08F6B4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>A7FA953D-C1FC-4126-DE02-575703962CA0</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rdate" id="B4463A1B-806F-E25F-687A-B027138F8A05">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>FD9EFDC1-3B1D-FF12-1D5C-8AE66EE4CC62</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1962693-C7A1-F180-8574-8BCFB4175F2A" name="Customer PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>68CB4182-2EC1-5361-03A3-7373FAE8A4BE</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA783035-C5BE-1433-6864-C8C8292135F6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C9F47E3A-2720-3C10-A25F-6D86AD9ED8DA" name="Customer  UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:26 UTC</createdTime>
+<generatorID>E78B43E1-3CA3-ED32-F8A6-15C221A7D585</generatorID>
+<ownerDesignName>ShopERD</ownerDesignName>
+<engineerTo>
+<item key="8F039AFC-E1F0-03AF-813C-55505C2D81ED" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>275393E5-3D69-5980-FB06-D74B933FE11A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
