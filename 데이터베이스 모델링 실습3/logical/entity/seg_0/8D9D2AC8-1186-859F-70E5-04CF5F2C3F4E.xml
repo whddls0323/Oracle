@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D9D2AC8-1186-859F-70E5-04CF5F2C3F4E" name="Patient">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>9B5F78D8-4939-B586-260F-37D4C55312F1</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pat id" id="2F10832A-5F8D-238F-2CF9-E406391183AE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>D11D124F-67F3-3B5D-73AA-CBC22F00B4E2</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pat name" id="0B2D4420-B1AD-CB6E-8FE5-B759189C569B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>813F21F2-289A-92E3-6CB4-ACCD6B3D64FB</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pat jumin" id="5B2E1CE9-02D7-F9FD-F146-26D2520EDD3E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>C4DE427E-3402-50EA-FBDE-D169C50D1A85</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pat gen" id="5C9B40EB-2194-35D9-35E6-65B403A450A0">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>D75B9285-32F5-16F2-7A84-E6032995DAC0</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pat addr" id="AA71D6C4-ED75-3C7B-B2A3-94F900757D2D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>736E5978-50B0-2432-4296-343925D4AD18</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pat phone" id="049C90FE-EA89-E1EB-58F2-50B82D02AE27">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>860D66D3-1864-F84D-71BC-B0064277D1D2</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pat email" id="E44E618C-7495-AF2B-06DF-1378338323F0">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>318B5781-9282-D32A-4291-0E7DBA4F631F</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pat job" id="C45F4CE8-58BD-8CE8-D737-2822B91F9B11">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>A4075F15-BB89-4801-A0F6-2E2DEDB36B15</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nurse nur id" id="A6492BEA-9F8E-B22C-A331-1165EADBDEC2">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>57D6B630-28A2-F5F1-3918-B50EA264F64F</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B40C5C59-86CF-584E-CDF8-6A436154B67D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doctor doc id" id="8A6C6BD1-DF29-5885-977C-4F4D6E501DD4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>07822386-015A-6A3E-A9A1-2B871A85C65C</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6F211E57-16E8-7ED0-BF09-ADA71165AD1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A591DA5-6FF1-E1AA-E595-2036C67EBB03" name="Patient PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>A2CDE532-2909-6B53-09EA-7AFFDE933140</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F10832A-5F8D-238F-2CF9-E406391183AE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="00D84BD8-C616-F2C2-FA5A-EEFE140FE9A2" name="Patient  UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>D9158598-BF92-9797-0DF0-A90C69FC62BF</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>049C90FE-EA89-E1EB-58F2-50B82D02AE27</attributeRef>
+<attributeRef>E44E618C-7495-AF2B-06DF-1378338323F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

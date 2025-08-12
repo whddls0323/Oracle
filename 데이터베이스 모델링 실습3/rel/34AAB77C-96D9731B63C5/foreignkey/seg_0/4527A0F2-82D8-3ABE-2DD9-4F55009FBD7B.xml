@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4527A0F2-82D8-3ABE-2DD9-4F55009FBD7B" containerWithKeyObject="3CB8CA91-6B1D-7495-2DB7-1A2E26451D88" localFKIndex="D9EA27C1-41F7-A2C2-4897-B2D365D7AA5F" name="Treatment_Patient_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:29:16 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<referredTableLongName>Patient</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B5F78D8-4939-B586-260F-37D4C55312F1</referredTableID>
+<keyObject>A2CDE532-2909-6B53-09EA-7AFFDE933140</keyObject>
+<referredKeyID>A2CDE532-2909-6B53-09EA-7AFFDE933140</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pat_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

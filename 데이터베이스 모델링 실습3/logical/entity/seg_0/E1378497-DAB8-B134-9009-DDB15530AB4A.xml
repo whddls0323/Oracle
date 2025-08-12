@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1378497-DAB8-B134-9009-DDB15530AB4A" name="Treatment">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>3CB8CA91-6B1D-7495-2DB7-1A2E26451D88</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="treat no" id="9C0351B5-09BA-2DA3-013D-51447933055C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>546AE02A-F764-9622-6BB9-50427F21BB0E</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="treat desc" id="650A7619-9165-59D8-1B31-7502882CAD28">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>136C8167-8CA6-53A8-7A36-7325771B3232</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="treat datetime" id="BF855F55-1E6E-E45C-E30B-F6126B7778B0">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>A6CDAD78-26C2-FBF3-19F9-D40A886B24AF</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doctor doc id" id="4DDF7C5A-54C8-B6D2-C1B7-6686AE1FB8CF">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>08E2F0EC-3980-3E95-96D4-F90455DEC1EC</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<referedAttribute>6F211E57-16E8-7ED0-BF09-ADA71165AD1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient pat id" id="E7B9DDB0-B836-8D86-B5F6-7F86A214F21E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>E8DA6986-0D01-D401-072F-913C76EC4052</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<referedAttribute>2F10832A-5F8D-238F-2CF9-E406391183AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="277C7218-1558-2A8F-88CF-944C342F023E" name="Treatment PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>408E34D1-F5A7-EC3D-3B90-45F8B6E077FF</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C0351B5-09BA-2DA3-013D-51447933055C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

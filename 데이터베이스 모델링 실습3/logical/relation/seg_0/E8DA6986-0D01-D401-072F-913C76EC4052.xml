@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Treatment_Patient_FK" directorySegmentName="seg_0" id="E8DA6986-0D01-D401-072F-913C76EC4052">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:34:52 UTC</createdTime>
+<generatorID>4527A0F2-82D8-3ABE-2DD9-4F55009FBD7B</generatorID>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<engineerTo>
+<item key="34AAB77C-88D5-7A37-0ECC-96D9731B63C5" value="true"/>
+</engineerTo>
+<sourcePk>1A591DA5-6FF1-E1AA-E595-2036C67EBB03</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8D9D2AC8-1186-859F-70E5-04CF5F2C3F4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E1378497-DAB8-B134-9009-DDB15530AB4A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

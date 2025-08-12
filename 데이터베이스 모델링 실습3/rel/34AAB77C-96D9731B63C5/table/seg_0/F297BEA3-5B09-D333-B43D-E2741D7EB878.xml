@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F297BEA3-5B09-D333-B43D-E2741D7EB878" name="Nurse">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:21:06 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nur_id" id="7B88B1A2-F6FC-4419-44DE-C08E1709C79E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="dep_no" id="31EA5689-55F1-5E71-54FA-F65784BC80CE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:26:11 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75254F44-0B91-8C37-7A08-3EF897AA2E91" referredColumn="B4AD429F-2F40-69B5-C29A-E26647C1020F"/>
+</associations>
+</Column>
+<Column name="nur_name" id="0B53A1A6-FE36-DE38-70D9-38DA4AD3C9C3">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nur_birth" id="5CAFBCFF-76A1-6B8E-1AD6-A757C37A1641">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nur_gender" id="2972DBF2-0107-63BF-B257-E51F45F89925">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nur_pos" id="0BE3AC9B-38C3-1EFE-8FC5-C441B9A03B5C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nur_phone" id="ABEC378F-DC46-B56F-85EF-618C0F132615">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nur_email" id="E1CF2DF1-9953-0C84-2A26-3F239D2384DC">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71E852F2-75ED-BFA8-318F-10D0E76CF7B0" name="Nurse_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B88B1A2-F6FC-4419-44DE-C08E1709C79E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB50DBC0-3FEC-5DC1-323A-7B97037D0660" name="Nurse__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:49 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABEC378F-DC46-B56F-85EF-618C0F132615"/>
+<colUsage columnID="E1CF2DF1-9953-0C84-2A26-3F239D2384DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69E34674-F57D-230E-BA7C-77C16FBDCFBF" name="Nurse_Department_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:26:11 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31EA5689-55F1-5E71-54FA-F65784BC80CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

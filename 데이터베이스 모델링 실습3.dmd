@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="데이터베이스 모델링 실습3" id="70803B6E-3C18-D83A-75CF-166418F5CD59" version="3.5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:13:09 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>70803B6E-3C18-D83A-75CF-166418F5CD59</designId>
+</OSDM_Design>

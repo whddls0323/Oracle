@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61EF3CAC-AC78-5294-142B-0D695A632ED9" name="Chart">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:24:26 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="chart_id" id="1960997C-35D6-F57C-73F4-2D52F150239C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:25:02 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="treat_no" id="AB66245A-048B-5A19-E8DC-3A342B688824">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:52:54 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A38E9F01-DEC4-9309-6A4E-57B421AE5CC6" referredColumn="546AE02A-F764-9622-6BB9-50427F21BB0E"/>
+</associations>
+</Column>
+<Column name="doc_id" id="BF0FBA3B-03E1-42D7-2962-73301866F201">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:53:34 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A38E9F01-DEC4-9309-6A4E-57B421AE5CC6" referredColumn="0766A3AB-BA84-8F8E-5C7A-9DFEFD091A55"/>
+</associations>
+</Column>
+<Column name="pat_id" id="F565BC7E-EDC6-3BD7-669D-7C0E4D1BE543">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:53:34 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A38E9F01-DEC4-9309-6A4E-57B421AE5CC6" referredColumn="EE9EA2F6-8F22-5EC3-39B3-D57549C368A1"/>
+</associations>
+</Column>
+<Column name="chart_desc" id="2F36011A-A58E-AEA9-4CB8-1652FB83954C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:25:02 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="401250E1-28DD-81C0-794C-AB1D31176144" name="Chart_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:25:02 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1960997C-35D6-F57C-73F4-2D52F150239C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F746F1F-A4A6-9224-87C4-F5954CB06028" name="Chart_Treatment_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:52:54 UTC</createdTime>
+<ownerDesignName>데이터베이스 모델링 실습3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB66245A-048B-5A19-E8DC-3A342B688824"/>
+<colUsage columnID="BF0FBA3B-03E1-42D7-2962-73301866F201"/>
+<colUsage columnID="F565BC7E-EDC6-3BD7-669D-7C0E4D1BE543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
